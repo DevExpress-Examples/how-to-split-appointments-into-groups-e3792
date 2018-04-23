@@ -1,0 +1,9 @@
+﻿<Window x:Class="SchedulerAppointmentGroupsWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxsch="http://schemas.devexpress.com/winfx/2008/xaml/scheduler"
+        Title="MainWindow" Height="600" Width="1000">
+    <Grid>
+        <dxsch:SchedulerControl Name="schedulerControl1" ActiveViewType="WorkWeek" AppointmentViewInfoCustomizing="schedulerControl1_AppointmentViewInfoCustomizing" />
+    </Grid>
+</Window>
